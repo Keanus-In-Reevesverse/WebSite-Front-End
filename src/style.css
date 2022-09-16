@@ -2,6 +2,7 @@
 @import url("css/layoutBuilds/404.css");
 @import url("css/layoutBuilds/gamepage.css");
 @import url("css/layoutBuilds/header.css");
+@import url("css/layoutBuilds/main.css");
 /*Import CSS Components*/
 @import url("css/components/banner.css");
 @import url("css/components/cards.css");
@@ -13,6 +14,7 @@
 :root {
     /*Var Color*/
     --background-color-white: #F6f6f9;
+    --background-color-dark-white: #f0f0f0ab;
     --dark-blue: #04051f;
     --light-blue: #1E9AD8;
     --light-red: #E21013;
@@ -33,6 +35,38 @@ body{
 }
 
 main{
-    width: 85%;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-items: center;
+}
+
+
+
+/* ScrollBar
+------------------------- */
+/* width */
+::-webkit-scrollbar {
+	width: 0.5ex;
+	
+}
+::-webkit-scrollbar:hover{
+	width: 1.25ex;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.415); 
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: gray; 
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(62, 62, 62); 
 }

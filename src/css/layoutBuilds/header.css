@@ -16,6 +16,10 @@
     size-adjust: 120%;
 }
 
+.home-button:hover{
+    transform: scale(1.50);
+}
+
 /*CSS Search bar*/
 .header__search{
     margin-right: 1.5em;
