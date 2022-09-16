@@ -1,6 +1,7 @@
 /*Import CSS Layout Builders*/
 @import url("css/layoutBuilds/404.css");
 @import url("css/layoutBuilds/gamepage.css");
+@import url("css/layoutBuilds/header.css");
 /*Import CSS Components*/
 @import url("css/components/banner.css");
 @import url("css/components/cards.css");
@@ -16,6 +17,7 @@
     --light-blue: #1E9AD8;
     --light-red: #E21013;
     --ligth-green: #02FF12;
+    --dark-green:#106916;
     --gray: #505050;
     --yellow: #EEE90B;
     /*Var Fonts*/
@@ -28,4 +30,9 @@ body{
     font-family: var(--main-font);
     font-size: 16px;
     font-weight: 400;
+}
+
+main{
+    width: 85%;
+    align-content: center;
 }
