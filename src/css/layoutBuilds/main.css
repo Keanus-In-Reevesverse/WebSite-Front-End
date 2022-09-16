@@ -10,9 +10,10 @@
     justify-content: space-between;
     margin: 3em 0;
     padding: 2em;
-    border: 2px solid var(--ligth-green);
+    border: 1px solid var(--shadow);
     border-radius: 6px;
     background: var(--background-color-dark-white);
+    box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.290);
 
 } 
 
