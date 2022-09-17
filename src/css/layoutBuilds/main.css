@@ -32,3 +32,20 @@
     border-radius: 10px;
     box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.295);
 }
+
+.buttons__anchor{
+    background-color: var(--light-blue);
+    padding: 1em 2.2em;
+    text-align: center;
+    margin-top: 2em;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.buttons__anchor:hover{
+    transform: scale(1.20);
+    background-color: blue;
+}

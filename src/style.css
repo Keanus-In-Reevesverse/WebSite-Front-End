@@ -15,12 +15,14 @@
     /*Var Color*/
     --background-color-white: #F6f6f9;
     --background-color-dark-white: #f0f0f0ab;
+    --white:#ffffff;
     --dark-blue: #04051f;
     --light-blue: #1E9AD8;
     --light-red: #E21013;
     --ligth-green: #02FF12;
     --dark-green:#106916;
     --gray: #505050;
+    --shadow:#666565c7;
     --yellow: #EEE90B;
     /*Var Fonts*/
     --main-font: "Yantramanav";
@@ -47,11 +49,11 @@ main{
 ------------------------- */
 /* width */
 ::-webkit-scrollbar {
-	width: 0.5ex;
+	width: 0.5em;
 	
 }
 ::-webkit-scrollbar:hover{
-	width: 1.25ex;
+	width: 1.25em;
 }
 
 /* Track */
