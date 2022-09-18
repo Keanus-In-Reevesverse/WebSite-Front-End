@@ -1,0 +1,8 @@
+
+.footer{
+    text-align: center;
+    display:flex;
+    background-color: burlywood;
+    padding: 100em;
+    width: 100%;
+}

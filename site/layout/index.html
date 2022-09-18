@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrunoBooks</title>
+    <link rel="stylesheet" href="../../src/css/reset.css">
+    <link rel="stylesheet" href="../../src/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <!--Items on the left side of the navbar-->
+        <div class="container-left">
+            <a href="index.html"><img src="../static/img/icons/home.svg" class="home-button" alt="Icone Home"></a>
+        </div>
+        <!--Items on the rigth side of the navbar-->  
+        <div class="container-right">
+            <!-- Search bar -->         
+            <input type="search" class="header__search" placeholder="             O que procura ?">
+            <div class="header__buttons">
+                <!-- Login and registration buttons -->
+                <ul class="buttons-header">    
+                    <button type="button" class="buttons-header__login">ENTRAR</button >
+                    <button type="button" class="buttons-header__registration">CADASTRAR</button >
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--Card Section-->
+        <section class="card">
+            <!--Card 1-->
+            <div class="card__container">
+                <div class="card__text">
+                    <h2>First featurette heading. <span class="">It’ll blow your mind.</span></h2>
+                    <p>Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                    <a href="#" class="buttons__anchor">Saiba mais...</a>
+                </div>
+                <div class="card__space-img">
+                    <img class="card__img" src="../static/img/500x500/01.jpg" alt="">
+                </div>
+            </div>
+            <hr/>
+            <!--Card 2-->
+            <div class="card__container">
+                <div class="card__space-img">
+                    <img  class="card__img" src="../static/img/500x500/02.jpg" alt="">
+                </div>
+                <div class="card__text">
+                    <h2>Oh yeah, it’s that good. <span class="">See for yourself.</span></h2>
+                    <p>Another featurette? Of course...</p>
+                    <a href="#" class="buttons__anchor">Saiba mais...</a>
+                </div>
+            </div>
+            <hr/>
+            <!--Card 3-->
+            <div class="card__container">
+                <div class="card__text">
+                    <h2>And lastly, this one. <span class="">Checkmate.</span></h2>
+                    <p >And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read.</p>
+                    <a href="#" class="buttons__anchor">Saiba mais...</a>
+                </div>
+                <div class="card__space-img">
+                    <img class="card__img" src="../static/img/500x500/03.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
