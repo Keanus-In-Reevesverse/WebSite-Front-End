@@ -1,6 +1,8 @@
+
 .footer{
-    display: inline-block;
-    background: var(--gray);
-    margin: 100px;
+    text-align: center;
+    display:flex;
+    background-color: burlywood;
+    padding: 100em;
     width: 100%;
 }

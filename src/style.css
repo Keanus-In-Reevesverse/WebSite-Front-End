@@ -43,6 +43,10 @@ main{
     justify-items: center;
 }
 
+footer{
+    width: 100%;
+}
+
 
 
 /* ScrollBar
